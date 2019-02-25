@@ -1,0 +1,36 @@
+@import "./reset.scss";
+
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+.app {
+  font-family: "Varela Round", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  display: grid;
+  text-align: center;
+  align-items: center;
+}
+
+@media (min-width: 300px) {
+  .app p {
+    font-size: 15.5px;
+  }
+}
+@media (min-width: 400px) {
+  .app p {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app p {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1224px) {
+  .app p {
+    font-size: 49px;
+  }
+}
