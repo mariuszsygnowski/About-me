@@ -16,7 +16,7 @@ const db = pgp({
 });
 
 app.use(bodyParser.json());
-app.use("/static", express.static("static"));
+app.use("/build", express.static("build"));
 app.set("view engine", "html");
 app.engine("html", require("hbs").__express);
 
